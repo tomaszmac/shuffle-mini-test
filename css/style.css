@@ -1,0 +1,77 @@
+.section-about {
+  padding: 9.6rem 2.2rem;
+  background-image: linear-gradient(to right bottom, #edf2ff, #dbe4ff);
+}
+
+.about {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 45fr 55fr;
+  align-items: center;
+  max-width: 130rem;
+  gap: 9.6rem;
+}
+
+.about-description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 1.8rem;
+}
+
+.benefits {
+  margin: 0 auto;
+}
+
+.benefit {
+  padding: 2rem;
+  border: 1px solid #f1f1f1;
+  border-radius: 2px;
+  background-color: #fff;
+  width: 30rem;
+  height: 22rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.06);
+  transition: 0.3s all ease-in;
+}
+
+.benefit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.116);
+}
+
+.benefit:nth-child(odd) {
+  margin-top: -2rem;
+}
+
+.benefit-description {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-top: 1rem;
+}
+
+.section-about .business-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 1.8rem;
+  transition: 0.2s all;
+}
+
+.section-about .icon-blue {
+  color: #1e88e5;
+  background-color: #bbdefb;
+}
+
+.section-about .icon-green {
+  color: #43a048;
+  background-color: #c8e6c9;
+}
+.section-about .icon-yellow {
+  color: #f9a825;
+  background-color: #fff9c4;
+}
+.section-about .icon-purple {
+  color: #9f46b7;
+  background-color: #e1bee7;
+}
